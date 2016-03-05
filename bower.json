@@ -1,0 +1,17 @@
+{
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.0"
+  },
+  "name": "containerApp",
+  "version": "0.0.0",
+  "author": "will",
+  "private": true
+}
