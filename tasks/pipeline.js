@@ -38,6 +38,9 @@ var jsFilesToInject = [
   //load bower assets
   'vendor/**/*.js',
 
+  //special rules for dependencies
+  'js/public/SignupModule.js',
+
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
   'js/**/*.js'
