@@ -18,7 +18,7 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
   'vendor/**/*.css',
-  'styles/**/*.css'
+  'styles/**/*.css',
 ];
 
 
@@ -30,16 +30,16 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   //load jquery
-  'vendor/jquery/jquery.js',
-
+  'vendor/js/jquery.min.js',
+  'vendor/js/angular.js',
+  'js/public/SignupModule.js',
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
   //load bower assets
   'vendor/**/*.js',
-
   //special rules for dependencies
-  'js/public/SignupModule.js',
+
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.

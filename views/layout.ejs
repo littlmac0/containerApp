@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%=typeof title == 'undefined' ? 'New Sails App' : title%></title>
+    <title><%=typeof title == 'undefined' ? 'containerApp' : title%></title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -28,9 +28,14 @@
             + Use a different or additional preprocessor, like SASS, SCSS or Stylus
     -->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--STYLES-->
+    <link rel="stylesheet" href="/vendor/css/angular-toastr.min.css">
+    <link rel="stylesheet" href="/vendor/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/importer.css">
     <!--STYLES END-->
+
   </head>
 
   <body>
@@ -89,10 +94,13 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
-    <script src="/vendor/jquery/jquery.js"></script>
-    <script src="/vendor/angular/angular.js"></script>
-    <script src="/vendor/bootstrap/bootstrap.js"></script>
+    <script src="/vendor/js/jquery.min.js"></script>
+    <script src="/vendor/js/angular.js"></script>
     <script src="/js/public/SignupModule.js"></script>
+    <script src="/js/dependencies/compareTo.js"></script>
+    <script src="/vendor/js/angular-toastr.min.js"></script>
+    <script src="/vendor/js/angular-toastr.tpls.min.js"></script>
+    <script src="/vendor/js/bootstrap.min.js"></script>
     <script src="/js/public/SignupController.js"></script>
     <!--SCRIPTS END-->
   </body>

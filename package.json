@@ -17,6 +17,7 @@
     "grunt-sass": "^1.1.0",
     "grunt-sync": "0.2.4",
     "include-all": "~0.1.6",
+    "machinepack-passwords": "^2.3.0",
     "rc": "1.0.1",
     "sails": "~0.12.1",
     "sails-disk": "~0.10.9",

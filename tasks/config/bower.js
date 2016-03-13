@@ -16,7 +16,8 @@ module.exports = function(grunt) {
 				layout: 'byType',
 				install: true,
 				verbose: false,
-				cleanTargetDir: true,
+				copy: false,
+				cleanTargetDir: false,
 				cleanBowerDir: false,
 				bowerOptions: {}
 			}
